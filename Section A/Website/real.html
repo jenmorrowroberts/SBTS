@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Realistic Fiction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Starter files for implementing Twitter Bootstrap's Carousel -- using Bootstrap version 2.0.4">
+    <meta name="author" content="David Cochran for webdesign.tutsplus.com">
+
+    <!-- Le styles -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <!-- Commented out - update these with your own files -->
+    <!-- 
+      <link rel="shortcut icon" href="ico/favicon.ico">
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png"> 
+    -->
+  </head>
+
+  <body>
+
+     <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand">Realistic Fiction Selections</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="homepage.html">Home</a></li>
+			  <li><a href="SciFi.html">Science Fiction</a></li>
+              <li><a href="fantasy.html">Fantasy</a></li>
+              <li class= "active"><a href="real.html">Realistic Fiction</a></li>
+			  <li><a href="recent.html">My Recent Reads</a></li>
+			
+              
+            </ul><!-- /.nav -->
+          </div><!--/.nav-collapse -->
+        </div><!-- /.container -->
+      </div><!-- /.navbar-inner -->
+    </div><!-- /.navbar -->
+
+    <div class="container">
+
+      <!--  Carousel -->
+      <!--  consult Bootstrap docs at 
+            http://twitter.github.com/bootstrap/javascript.html#carousel -->
+      <div id="this-carousel-id" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="item active">
+           <img src="img/real/speak.jpg" alt="Speak" />
+            <div class="carousel-caption">
+              <p>Speak by Laurie Halse Anderson</p>
+              <p><a href="http://www.goodreads.com/book/show/439288.Speak">goodreads.com &raquo;</a></p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/real/alaska.jpg" alt="Alaksa" />
+            <div class="carousel-caption">
+              <p>Looking for Alaska by John Green</p>
+              <p><a href="http://www.goodreads.com/book/show/99561.Looking_for_Alaska">goodreads.com &raquo;</a></p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/real/belcanto.jpg" alt="Bel Canto" />
+            <div class="carousel-caption">
+              <p>Bel Canto by Ann Patchett</p>
+           <p><a href="http://www.goodreads.com/book/show/5826.Bel_Canto">goodreads.com &raquo;</a></p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/real/extremelyloud.jpg" alt="Extremely Loud" />
+            <div class="carousel-caption">
+              <p>Extremely Loud and Incredibly Close by Jonathan Safran Foer</p>
+            <p><a href="http://www.goodreads.com/book/show/4588.Extremely_Loud_and_Incredibly_Close">goodreads.com &raquo;</a></p>  
+            </div>
+          </div>
+		  <div class="item">
+              <img src="img/real/dunces.jpg" alt="Confederacy of Dunces" />
+            </a>
+            <div class="carousel-caption">
+              <p>A Confederacy of Dunces by John Kennedy Toole</p>
+            <p><a href="http://www.goodreads.com/book/show/310612.A_Confederacy_of_Dunces">goodreads.com &raquo;</a></p>  
+            </div>
+          </div>
+        </div><!-- .carousel-inner -->
+        <!--  next and previous controls here
+              href values must reference the id for this carousel -->
+          <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+      </div><!-- .carousel -->
+      <!-- end carousel -->
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>Man vs Man</h2>
+           <p>Realistic Fiction is a pretty broad category, so I'm going to talk about it in terms of conflict types. Some great works of realistic fiction set up conflicts between people, whether physical conflict such as in times of war (try <a href="http://www.goodreads.com/book/show/436609.Fallen_Angels">Fallen Angels</a>) or in more subtle psychological conflicts such as crime thrillers of Agatha Christie or Sir Arthur Conan Doyle. Bel Canto is appears at first to be a conflict between terrorists and their hostages but takes some unexpected twists.</p>
+        </div>
+        <div class="span4">
+          <h2>Man vs Society</h2>
+           <p>While many science fiction stories tackle this conflict, realistic fiction also takes on the conflict between protagonists and the society in which they find themselves. <i>The Great Gatsby</i>, one of my favorites, addresses this issue, as does <i>A Confederacy of Dunces</i>, though Toole does so in a much more biting and hilarious fashion with an extremely unlikeable, ridiculous narrator you for some reason can't help but liking.</p>
+          
+        </div>
+        <div class="span4">
+          <h2>Man vs Self</h2>
+          <p>While there are of course other external conflicts in these novels, <i>Speak, Extremely Loud and Incredibly Close</i>, and <i>Looking for Alaska</i> are all incredibly internally driven books about the search for meaning amidst the seemingly uncaring world. All of them also feature young protagonists, yet are extremely diverse and all great reads.</p>
+          
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+       
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+    <!-- Bootstrap jQuery plugins compiled and minified -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.carousel').carousel({
+          interval: 4000
+        });
+      });
+    </script>
+
+  </body>
+</html>

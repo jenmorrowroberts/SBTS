@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My Recent Reads</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Starter files for implementing Twitter Bootstrap's Carousel -- using Bootstrap version 2.0.4">
+    <meta name="author" content="David Cochran for webdesign.tutsplus.com">
+
+    <!-- Le styles -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <!-- Commented out - update these with your own files -->
+    <!-- 
+      <link rel="shortcut icon" href="ico/favicon.ico">
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png"> 
+    -->
+  </head>
+
+  <body>
+
+     <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand">What I've been reading...</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="homepage.html">Home</a></li>
+			  <li><a href="SciFi.html">Science Fiction</a></li>
+              <li><a href="fantasy.html">Fantasy</a></li>
+              <li><a href="real.html">Realistic Fiction</a></li>
+			  <li class= "active"><a href="recent.html">My Recent Reads</a></li>
+			
+              
+            </ul><!-- /.nav -->
+          </div><!--/.nav-collapse -->
+        </div><!-- /.container -->
+      </div><!-- /.navbar-inner -->
+    </div><!-- /.navbar -->
+
+    <div class="container">
+
+      <!--  Carousel -->
+      <!--  consult Bootstrap docs at 
+            http://twitter.github.com/bootstrap/javascript.html#carousel -->
+      <div id="this-carousel-id" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="item active">
+           <img src="img/recent/amongothers.jpg" alt="Among Others" />
+            <div class="carousel-caption">
+              <p>Among Others by Jo Walton</p>
+              <p><a href="http://www.goodreads.com/book/show/8706185-among-others">goodreads.com &raquo;</a></p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/recent/maze.jpg" alt="Maze Runner" />
+            <div class="carousel-caption">
+              <p>The Maze Runner by James Dashner</p>
+              <p><a href="http://www.goodreads.com/book/show/6186357-the-maze-runner">goodreads.com &raquo;</a></p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/recent/rain.jpg" alt="racing rain" />
+            <div class="carousel-caption">
+              <p>The Art of Racing in the Rain by Garth Stein</p>
+           <p><a href="http://www.goodreads.com/book/show/3153910-the-art-of-racing-in-the-rain">goodreads.com &raquo;</a></p>
+            </div>
+          </div>
+         		  
+        </div><!-- .carousel-inner -->
+        <!--  next and previous controls here
+              href values must reference the id for this carousel -->
+          <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+      </div><!-- .carousel -->
+      <!-- end carousel -->
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>Among Others</h2>
+           <p>A school librarian friend recommended this one to me and I wanted to love it. It's the story of a teenage girl who is obsessed with science fiction and fantasy and uses these novels as an escape from some pretty tragic events in her life. Mixed in with this is the idea that, for her, magic is real, as are fairies, though the reader often questions whether this is just another escape mechanism. As I said, I wanted to love this novel, as it was, I did enjoy it, it just didn't live up to its potential, I felt, but there are some great characters and lots of allusions to great scifi literature.</p>
+        </div>
+        <div class="span4">
+          <h2>The Maze Runner</h2>
+           <p>After hearing so many of you talk about this book, I thought I'd give it a go. As stories go, it's entertaining, if a bit predictable in parts. The writing leaves something to be desired, but it's a fun Saturday afternoon read and the first of a series. I've been loaned the second book, so maybe he'll win me over yet.</p>
+          
+        </div>
+        <div class="span4">
+          <h2>The Art of Racing the Rain</h2>
+          <p>This is next up on my Nook. I know little about it other than it's narrated by a dog--how could I pass that up? It was the Fairfax Reads choice a few years ago and has good reviews. Hopefully I'll be able to pass on my own glowing reviews soon.</p>
+          
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+       
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+    <!-- Bootstrap jQuery plugins compiled and minified -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.carousel').carousel({
+          interval: 4000
+        });
+      });
+    </script>
+
+  </body>
+</html>

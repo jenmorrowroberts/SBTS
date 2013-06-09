@@ -1,0 +1,117 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="screen" gridspacingx="49152" gridspacingy="49152"
+  subsetembed="1">
+  <p:master id="15" slidesn="0,0" type="main" href="master15.html"
+   xmlhref="master15.xml" template="Origin" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+   </p:schemes>
+  </p:master>
+  <p:master id="137" slidesn="0,0" type="main" href="master137.html"
+   xmlhref="master137.xml" template="1_Origin" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+   </p:schemes>
+  </p:master>
+  <p:master id="138" slidesn="0,0" type="main" href="master138.html"
+   xmlhref="master138.xml" template="2_Origin" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+   </p:schemes>
+  </p:master>
+  <p:master id="139" slidesn="0,0" type="main" href="master139.html"
+   xmlhref="master139.xml" template="3_Origin" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+   </p:schemes>
+  </p:master>
+  <p:master id="140" slidesn="0,0" type="main" href="master140.html"
+   xmlhref="master140.xml" template="4_Origin" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+   </p:schemes>
+  </p:master>
+  <p:master id="141" slidesn="0,0" type="main" href="master141.html"
+   xmlhref="master141.xml" template="5_Origin" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+   </p:schemes>
+  </p:master>
+  <p:master id="142" slidesn="0,0" type="main" href="master142.html"
+   xmlhref="master142.xml" template="6_Origin" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+   </p:schemes>
+  </p:master>
+  <p:master id="143" slidesn="0,0" type="main" href="master143.html"
+   xmlhref="master143.xml" template="7_Origin" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+   </p:schemes>
+  </p:master>
+  <p:master id="144" slidesn="0,0" type="main" href="master144.html"
+   xmlhref="master144.xml" template="8_Origin" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+   </p:schemes>
+  </p:master>
+  <p:master id="145" slidesn="0,0" type="main" href="master145.html"
+   xmlhref="master145.xml" template="9_Origin" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+   </p:schemes>
+  </p:master>
+  <p:master id="146" slidesn="0,0" type="main" href="master146.html"
+   xmlhref="master146.xml" template="10_Origin" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+   </p:schemes>
+  </p:master>
+  <p:master id="147" slidesn="0,0" type="main" href="master147.html"
+   xmlhref="master147.xml" template="11_Origin" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+   </p:schemes>
+  </p:master>
+  <p:slide id="1" slidesn="1CB96EE,C62B4B20" href="slide0001.html"
+   masterhref="master137.html"/>
+  <p:slide id="2" slidesn="1CB96EE,CF3DFC80" href="slide0002.html"
+   masterhref="master145.html"/>
+  <p:slide id="3" slidesn="1CB96EF,5136FF20" href="slide0003.html"
+   masterhref="master138.html"/>
+  <p:slide id="10" slidesn="1CB96F1,F9FE7A00" href="slide0010.html"
+   masterhref="master138.html"/>
+  <p:slide id="4" slidesn="1CB96EF,DE8E9EF0" href="slide0004.html"
+   masterhref="master138.html"/>
+  <p:slide id="5" slidesn="1CB96F0,13B15FA0" href="slide0005.html"
+   masterhref="master138.html"/>
+  <p:slide id="6" slidesn="1CB96F0,53F00F30" href="slide0006.html"
+   masterhref="master138.html"/>
+  <p:slide id="7" slidesn="1CB96F0,93064450" href="slide0007.html"
+   masterhref="master138.html"/>
+  <p:slide id="8" slidesn="1CB96F0,E3A0BA30" href="slide0008.html"
+   masterhref="master138.html"/>
+  <p:slide id="9" slidesn="1CB96F1,74F6D7D0" href="slide0009.html"
+   masterhref="master138.html"/>
+  <p:slide id="12" slidesn="1CE3578,4DB6B410" href="slide0012.html"
+   masterhref="master138.html"/>
+  <p:slide id="13" slidesn="1CE3579,58505E20" href="slide0013.html"
+   masterhref="master138.html"/>
+  <p:slide id="11" slidesn="1CB96F2,3241720" href="slide0011.html"
+   masterhref="master138.html"/>
+  <p:viewstate restoredleft="156" restoredtop="946" hideoutlineicons="t"/>
+  <p:headersfooters nouserdate="t" nofooter="t" noheader="t" nodate="t"
+   todaydate="t"/>
+  <p:headersfooters notes="t" nouserdate="t" nofooter="t" noheader="t"
+   nodate="t" todaydate="t"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"
+   browsersupport="v4"/>
+  <p:htmlpublishsettings browsersupport="v4"
+   href="C:\Users\Jen\Dropbox\Teaching\SBTS\Section A\Revision Strategies.html"
+   noloadinbrowser="t"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="25604"/>
+</xml>
